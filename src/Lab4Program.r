@@ -10,7 +10,7 @@ library(tidyverse)
 data(us_contagious_diseases)
 
 #Question 1.
-
+abcd
 #Question 2.
 
 #Question 3.
