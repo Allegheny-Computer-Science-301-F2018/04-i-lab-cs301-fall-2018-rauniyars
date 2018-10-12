@@ -31,7 +31,7 @@ Q. In the New York Times article, entitled, “Journal Retracts 1998 Paper Linki
 -------------------------------------------------------------------------------------------------------------------------------------
 
 Question 9.
-Q. During the talk concerning Global Health, given by Dr. Becky Dawson and Dr. Amelia Finaret on Friday, 28th September, one of the main points is that data is used to fight disease and to track out-breaks of serious ailments in diverse communities all over the world. Find two sets of (publicly available) data from the World Health Organization which could be used in a project to determine whether vaccines are beneficial, in any capacity.
+Q. During the talk concerning Global Health, given by Dr. Becky Dawson and Dr. Amelia Finaret on Friday, 28th September, one of the main points presented is that data is used to fight disease and to track out-breaks of serious ailments in diverse communities all over the world. Find two sets of (publicly available) data from the World Health Organization which could be used in a project to determine whether vaccines are beneficial, in any capacity.
 
 A.
 http://apps.who.int/gho/data/view.main.81605?lang=en
