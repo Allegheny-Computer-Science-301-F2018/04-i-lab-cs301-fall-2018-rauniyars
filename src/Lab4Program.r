@@ -26,7 +26,7 @@ $per100000rate <- per100000rate
 datcali <- filter(dat, state == 'California')
 
 #Plotting the points in the graph
-ggplot(data = datc) + geom_point(mapping = aes(x = year, y = count/population)) + geom_vline(xintercept = 1965)
+ggplot(data = datcali) + geom_point(mapping = aes(x = year, y = count/population)) + geom_vline(xintercept = 1965)
 
 -----------------------------------------------------------------------------------------------------------------------
 
@@ -38,28 +38,37 @@ dat_caliFocus$yearBlock[1960 > dat_caliFocus$year & dat_caliFocus$year > 1949] <
 dat_caliFocus$yearBlock[1970 > dat_caliFocus$year & dat_caliFocus$year > 1959] <- "1960's"
 dat_caliFocus$yearBlock[1980 > dat_caliFocus$year & dat_caliFocus$year > 1969] <- "1970's"
 
+#Without the Square Root
+ggplot(data = dat_caliFocus) + geom_bar(mapping = aes(x = state,y = count, fill = yearBlock), position = "dodge", stat = "identity") + theme(axis.text.x = element_text(angle = 90,hjust = 1, vjust=-0.01))
+
+#Including the Square Root
+ggplot(data = dat_caliFocus) + geom_bar(mapping = aes(x = state,y = sqrt(count), fill = yearBlock), position = "dodge", stat = "identity") + theme(axis.text.x = element_text(angle = 90,hjust = 1, vjust=-0.01))
+
 
 #Question 4.
-dat_stateFocus <- filter(us_contagious_diseases, between(year,1950,1979))
+dat_allstateFocus <- filter(us_contagious_diseases, between(year,1950,1979))
 
-dat_allstate$yearBlock[1960 > dat_stateFocus$year & dat_stateFocus$year > 1949] <- "1950's"
-dat_allstate$yearBlock[1970 > dat_stateFocus$year & dat_stateFocus$year > 1959] <- "1960's"
-dat_allstate$yearBlock[1980 > dat_stateFocus$year & dat_stateFocus$year > 1969] <- "1970's"
+dat_allstateFocus$yearBlock[1960 > dat_allstateFocus$year & dat_stateFocus$year > 1949] <- "1950's"
+dat_allstateFocus$yearBlock[1970 > dat_allstateFocus$year & dat_stateFocus$year > 1959] <- "1960's"
+dat_allstateFocus$yearBlock[1980 > dat_allstateFocus$year & dat_stateFocus$year > 1969] <- "1970's"
 
-WORK ON PLOTTING
-
+#Plotting the points
+ggplot(data = dat_allstateFocus) + geom_bar(mapping = aes(x = state,y = sqrt(count), fill = yearBlock), position = "dodge", stat = "identity") + theme(axis.text.x = element_text(angle = 90,hjust = 1, vjust=-0.01))
 
 
 -----------------------------------------------------------------------------------------------------------------------
 
-#Question 5.
-dat_new <- dat_stateFocus %>% 
-ggplot(data = dat_new) + geom_tile(mapping = aes(x = state, y = year, fill = count^(1/2)),colour = "grey50", position = "dodge", stat = "identity") 
   
+#Question 5.
+dat_allStateFocus <- mutate(dat_allStateFocus, per100000rate = ((count*100000)/population) * (weeks_reporting/52))
+
+ggplot(data = dat_allStateFocus, mapping = aes(x = year, y = state)) + geom_tile(mapping = aes(fill = per100000rate, colour = "grey"))
   
 
 #Question 6.
+https://www.jpeds.com/article/S0022-3476(13)00144-3/pdf?ext=.pdf
 
+This research paper provides detailed information on autism and vaccines supporting the fact that vaccines do not cause autism.
 
 
 

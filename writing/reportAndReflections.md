@@ -5,12 +5,15 @@ Question 7.
 
 Q. Use data exploration to determine if other diseases (besides Measles) have enough data to explore the effects of vaccines. Be critical of your online research. Are you convinced by the primary or credible articles that you have found? Be sure to cite all articles.
 
-A. I researched about the effect of polio vaccines and I got a positive result as I had expected. It cannot be denied that with any medicine, there might be side-effects or allergic reactions but the fear of that shouldn't be the reason we walk away from vaccines and put our life at stake. A lot of research has been done on the effect of vaccines that have supporting evidence like this:
-https://ourworldindata.org/vaccination#the-history-of-vaccine-innovation
+A. I researched about the effect of Rubella and Total Tetanus and I got a positive result as I had expected. Looking at the decrease in number of cases inclined towards the bright side of vaccines. It cannot be denied that with any medicine, there might be side-effects or allergic reactions but the fear of that shouldn't be the reason we walk away from vaccines and put our life at stake.
 
-This article presents a detailed research on vaccines especially its impact and the data tells how positive the result has been as there has been a significant decrease in the spread of these life-threatening diseases.
+http://apps.who.int/gho/data/view.main.1520_57?lang=en
+http://apps.who.int/gho/data/view.main.1520_46?lang=en
+
+This data presents a detailed research on vaccines especially its impact and the data tells how positive the result has been as there has been a significant decrease in the spread of these life-threatening diseases. Yes. I am convinced as it has been published a widely recognized organization that is, WHO and they keep updating their data very often.
 
 -------------------------------------------------------------------------------------------------------------------------------------
+
 Question 8.
 
 Q. In the New York Times article, entitled, “Journal Retracts 1998 Paper Linking Autism to Vaccines” by Gardiner Harris  (https://www.nytimes.com/2010/02/03/health/research/ 03lancet.html) a research article written by Dr. Andrew Wakefield has been retracted by the authors because it suggests that autism followed from the use of vaccines. Read the article to answer the following reflection questions to place in your writing/reportAndReflections.md file.
@@ -28,9 +31,16 @@ Q. In the New York Times article, entitled, “Journal Retracts 1998 Paper Linki
 -------------------------------------------------------------------------------------------------------------------------------------
 
 Question 9.
+Q. During the talk concerning Global Health, given by Dr. Becky Dawson and Dr. Amelia Finaret on Friday, 28th September, one of the main points is that data is used to fight disease and to track out-breaks of serious ailments in diverse communities all over the world. Find two sets of (publicly available) data from the World Health Organization which could be used in a project to determine whether vaccines are beneficial, in any capacity.
+
+A.
+http://apps.who.int/gho/data/view.main.81605?lang=en
+http://apps.who.int/gho/data/view.main.81600?lang=en
+
+This data reports the cases on Polio and Neonatal Tetanus respectively for different countries. Going through the data, we can see the previous years when vaccinations were not very popular, there were a lot of reported cases. However, with time and increase in the number of vaccinations supported my WHO, we could see a decrease in the number of cases.
 
 
-
+-------------------------------------------------------------------------------------------------------------------------------------
 
 Question 10.
 
